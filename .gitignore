@@ -426,3 +426,10 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+// Source - https://stackoverflow.com/questions/32516453/should-github-repo-also-have-nuget-packages-folder
+// Posted by Jon Hanna
+// Retrieved 11/5/2025, License - CC-BY-SA 4.0
+
+packages/**/*
+!packages/repositories.config
+
