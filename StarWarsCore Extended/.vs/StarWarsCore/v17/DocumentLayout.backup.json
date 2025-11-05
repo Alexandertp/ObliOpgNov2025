@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|e:\\undervisning\\1 sem prgtek\\objektorienteret programmering (e2025)\\session 13 - star wars core 3\\2025 version\\starwarscore extended\\starwarscore\\views\\home\\recruitform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|solutionrelative:starwarscore\\views\\home\\recruitform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|e:\\undervisning\\1 sem prgtek\\objektorienteret programmering (e2025)\\session 13 - star wars core 3\\2025 version\\starwarscore extended\\starwarscore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|solutionrelative:starwarscore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|e:\\undervisning\\1 sem prgtek\\objektorienteret programmering (e2025)\\session 13 - star wars core 3\\2025 version\\starwarscore extended\\starwarscore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|solutionrelative:starwarscore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|e:\\undervisning\\1 sem prgtek\\objektorienteret programmering (e2025)\\session 13 - star wars core 3\\2025 version\\starwarscore extended\\starwarscore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|solutionrelative:starwarscore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|e:\\undervisning\\1 sem prgtek\\objektorienteret programmering (e2025)\\session 13 - star wars core 3\\2025 version\\starwarscore extended\\starwarscore\\views\\home\\jedi_vs_sith.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|solutionrelative:starwarscore\\views\\home\\jedi_vs_sith.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|e:\\undervisning\\1 sem prgtek\\objektorienteret programmering (e2025)\\session 13 - star wars core 3\\2025 version\\starwarscore extended\\starwarscore\\helpers\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|solutionrelative:starwarscore\\helpers\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|e:\\undervisning\\1 sem prgtek\\objektorienteret programmering (e2025)\\session 13 - star wars core 3\\2025 version\\starwarscore extended\\starwarscore\\models\\theplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|solutionrelative:starwarscore\\models\\theplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|e:\\undervisning\\1 sem prgtek\\objektorienteret programmering (e2025)\\session 13 - star wars core 3\\2025 version\\starwarscore extended\\starwarscore\\models\\luke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|solutionrelative:starwarscore\\models\\luke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|e:\\undervisning\\1 sem prgtek\\objektorienteret programmering (e2025)\\session 13 - star wars core 3\\2025 version\\starwarscore extended\\starwarscore\\models\\obi_wan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|solutionrelative:starwarscore\\models\\obi_wan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|e:\\undervisning\\1 sem prgtek\\objektorienteret programmering (e2025)\\session 13 - star wars core 3\\2025 version\\starwarscore extended\\starwarscore\\starwarscore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6C7FE4EE-238E-4AFC-804B-2C2BBC9920B3}|StarWarsCore\\StarWarsCore.csproj|solutionrelative:starwarscore\\starwarscore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1679437901:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1411303904:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1265035025:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:776247227:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:510944093:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecruitForm.cshtml",
+              "DocumentMoniker": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\Views\\Home\\RecruitForm.cshtml",
+              "RelativeDocumentMoniker": "StarWarsCore\\Views\\Home\\RecruitForm.cshtml",
+              "ToolTip": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\Views\\Home\\RecruitForm.cshtml",
+              "RelativeToolTip": "StarWarsCore\\Views\\Home\\RecruitForm.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T16:40:54.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\Helpers\\EmailSender.cs",
+              "RelativeDocumentMoniker": "StarWarsCore\\Helpers\\EmailSender.cs",
+              "ToolTip": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\Helpers\\EmailSender.cs",
+              "RelativeToolTip": "StarWarsCore\\Helpers\\EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T15:22:55.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Obi_Wan.cs",
+              "DocumentMoniker": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\Models\\Obi_Wan.cs",
+              "RelativeDocumentMoniker": "StarWarsCore\\Models\\Obi_Wan.cs",
+              "ToolTip": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\Models\\Obi_Wan.cs",
+              "RelativeToolTip": "StarWarsCore\\Models\\Obi_Wan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T11:53:25.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ThePlayer.cs",
+              "DocumentMoniker": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\Models\\ThePlayer.cs",
+              "RelativeDocumentMoniker": "StarWarsCore\\Models\\ThePlayer.cs",
+              "ToolTip": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\Models\\ThePlayer.cs",
+              "RelativeToolTip": "StarWarsCore\\Models\\ThePlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T09:49:32.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Luke.cs",
+              "DocumentMoniker": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\Models\\Luke.cs",
+              "RelativeDocumentMoniker": "StarWarsCore\\Models\\Luke.cs",
+              "ToolTip": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\Models\\Luke.cs",
+              "RelativeToolTip": "StarWarsCore\\Models\\Luke.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T09:47:58.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "StarWarsCore\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "StarWarsCore\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAD8BAAAAAAAAAAAAAPoAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T09:19:03.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Jedi_Vs_Sith.cshtml",
+              "DocumentMoniker": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\Views\\Home\\Jedi_Vs_Sith.cshtml",
+              "RelativeDocumentMoniker": "StarWarsCore\\Views\\Home\\Jedi_Vs_Sith.cshtml",
+              "ToolTip": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\Views\\Home\\Jedi_Vs_Sith.cshtml",
+              "RelativeToolTip": "StarWarsCore\\Views\\Home\\Jedi_Vs_Sith.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwD0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T09:18:05.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "StarWarsCore\\wwwroot\\css\\site.css",
+              "ToolTip": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "StarWarsCore\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswD0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-03T09:04:35.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StarWarsCore.csproj",
+              "DocumentMoniker": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\StarWarsCore.csproj",
+              "RelativeDocumentMoniker": "StarWarsCore\\StarWarsCore.csproj",
+              "ToolTip": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\StarWarsCore.csproj",
+              "RelativeToolTip": "StarWarsCore\\StarWarsCore.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-03T09:02:09.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\Program.cs",
+              "RelativeDocumentMoniker": "StarWarsCore\\Program.cs",
+              "ToolTip": "E:\\Undervisning\\1 sem PrgTek\\Objektorienteret Programmering (E2025)\\Session 13 - Star Wars Core 3\\2025 Version\\StarWarsCore Extended\\StarWarsCore\\Program.cs",
+              "RelativeToolTip": "StarWarsCore\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:57:32.433Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

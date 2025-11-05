@@ -1,0 +1,66 @@
+﻿@model StarWarsCore.Models.ThePlayer
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />    
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/css/site.css" rel="stylesheet" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <title>RecruitForm</title>
+</head>
+<body>
+    <div class="panel panel-success">
+        <div class="panel-heading text-center">
+            <h4>The force is strong in your mouse click, o padawan.. now, let's attend to business!</h4>
+        </div>      
+
+        <div class="panel-body">
+            <form class="p-a-1" asp-action="RecruitForm" method="post">
+                <div asp-validation-summary="All"></div>
+                <div class="form-group">
+                    <label asp-for="Name">Your name:</label>
+                    <input asp-for="Name" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email">Your email:</label>
+                    <input asp-for="Email" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="LightSaberColor">Your preferred light saber color:</label>
+                    <input asp-for="LightSaberColor" />
+                </div>
+                <p>
+                    <div class="form-group">
+                        <label>Will you join the dark side?</label>
+                        <select asp-for="DarkSide">
+                            <option value="">Choose an option</option>
+                            <option value="true">Oh Yes! Yes! I've always wanted to be a Sith Warrior!</option>
+                            <option value="false">No, I really think we all just ought to get along nicely.</option>
+                        </select>
+                    </div>
+                </p>
+                <div class="text-center">
+                    <input class="btn btn-success" type="submit" value="Start a cosmic scrap! " id="subbtn" />
+                </div>
+            </form>
+        </div>
+
+        <div id="InfoDiv" class="battledata text-center">
+            <p>
+                The LightSaber battle generator is now running your scrap with Luke and Luke Sr. - please have patience with your CPU, this will take a few minutes ;-)
+            </p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $("#subbtn").click(function () {
+            $(".battledata").fadeIn(4000); // fade in div when submit button is clicked
+        });
+    </script>
+</body>
+</html>

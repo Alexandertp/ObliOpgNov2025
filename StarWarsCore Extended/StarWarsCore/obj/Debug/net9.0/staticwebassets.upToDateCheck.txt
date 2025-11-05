@@ -1,0 +1,140 @@
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\images\badass.jpg
+wwwroot\images\banner1.svg
+wwwroot\images\banner2.svg
+wwwroot\images\banner3.svg
+wwwroot\images\banner4.svg
+wwwroot\images\darth.jpg
+wwwroot\images\deathvader.jpg
+wwwroot\images\jokevader.jpg
+wwwroot\images\luke.jpg
+wwwroot\images\stormtrooper.jpg
+wwwroot\images\Yoda.jpg
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\lib\jquery\LICENSE.txt
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\images\banner4.svg
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\js\site.js
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\jquery-validation\dist\additional-methods.js
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\jquery-validation\LICENSE.md
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\jquery\dist\jquery.js
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\jquery\dist\jquery.min.js
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\jquery\dist\jquery.min.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\jquery\dist\jquery.slim.js
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\jquery\dist\jquery.slim.min.js
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\jquery\dist\jquery.slim.min.map
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\lib\jquery\LICENSE.txt
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\images\banner1.svg
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\images\banner3.svg
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\images\banner2.svg
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\favicon.ico
+E:\Undervisning\1 sem PrgTek\Objektorienteret Programmering (E2025)\Session 13 - Star Wars Core 3\2025 Version\StarWarsCore Extended\StarWarsCore\wwwroot\css\site.css

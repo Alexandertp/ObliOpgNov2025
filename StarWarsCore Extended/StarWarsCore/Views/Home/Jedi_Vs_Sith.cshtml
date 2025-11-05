@@ -1,0 +1,75 @@
+﻿@model StarWarsCore.Models.ThePlayer
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />    
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/css/site.css" rel="stylesheet" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <title>Jedi_Vs_Sith</title>
+    <style>
+        body {
+            background-color: #F1F1F1;
+        }
+        .battledata {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        @*Denne row test giver samme output som i Battle div - dvs cols står under hinanden*@
+        @*<div class="row">
+                <div class="col-4">TEST Bootstrap col-4</div>
+                <div class="col-8">TEST Bootstrap col-8</div>
+            </div>*@
+        <div class="text-center">
+            <h1>Thank you, @Model.Name!</h1>
+            <div class="lead">
+                @if (Model.DarkSide == true)
+            {
+                    @:You have chosen wisely, apprentice.. there will be no end to our Sith nastiness now you're on board!
+            }
+            else
+            {
+                    @:Thank you for letting us know that you will help us prevail over the Dark Side. Or at least, try..
+            }
+            </div>
+            <p>
+                <input type="button" class="btn btn-success" id="executebattle" name="executebattle" value="Reveal events!" />
+            </p>
+        </div>
+
+        <div id="BattleDiv" class="battledata">
+            
+            @foreach (var eventdesc in ViewBag.FightDescription)
+            {
+                @Html.Raw(eventdesc)
+            }
+
+            <br />
+            <br />
+            <p class="text-center">
+                <a class="btn btn-success" asp-controller="Home"
+                   asp-action="EmailBattleData"
+                   asp-route-playerEmail="@Model.Email"
+                   asp-route-playerName=" @Model.Name">Email this epic Jedi Battle!</a>
+            </p>
+        </div>
+        
+    </div>
+
+    <script type="text/javascript">
+        $("#executebattle").click(function () {
+            $(".battledata").show(); // show battledata div when reveal button is clicked
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/css/site.css" rel="stylesheet" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <title>MailSuccess</title>
+    <style>
+        body {
+            background-color: #F1F1F1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        @*Denne row test giver samme output som i Battle div - dvs. cols står under hinanden*@
+        @*<div class="row">
+                <div class="col-4">TEST Bootstrap col-4</div>
+                <div class="col-8">TEST Bootstrap col-8</div>
+        </div>*@
+        <div class="text-center">
+            <h1>Mail Afsendt!</h1>
+            <div class="lead">
+                <div>
+                    @TempData["SuccessMsg"]
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

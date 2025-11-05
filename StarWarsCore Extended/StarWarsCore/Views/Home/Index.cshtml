@@ -1,0 +1,38 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />    
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />    
+    <title>Index</title>
+    <style>
+        .btn a {
+            color: white;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: #F1F1F1;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-center">
+        <div class="lead">
+            <p></p>
+            @ViewBag.Greeting, future Jedi Knight.
+            <p>
+                Soon, we shall see what you are made of... intestines, maybe? <br />
+            </p>
+            <div class="btn btn-success">
+                @Html.ActionLink("Ok - sign me up in blood!", "RecruitForm")
+            </div>
+        </div>
+    </div>
+</body>
+</html>
