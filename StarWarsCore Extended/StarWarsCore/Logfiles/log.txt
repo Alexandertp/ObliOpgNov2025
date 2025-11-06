@@ -2546,3 +2546,495 @@ Log Entry : 12:14:31 6. november 2025
 Log Entry : 12:14:31 6. november 2025
   :First condition is hit, and ol' Palpatine has picked Darth Vader
 -------------------------------
+
+Log Entry : 13.08.46 Thursday, 6 November 2025
+  :Error logged from RecruitForm else clause: Please enter a valid email address
+-------------------------------
+
+Log Entry : 13.08.46 Thursday, 6 November 2025
+  :Error logged from RecruitForm else clause: Please specify if you are drawn to the dark side or not!
+-------------------------------
+
+Log Entry : 13.08.46 Thursday, 6 November 2025
+  :Error logged from RecruitForm else clause: Please enter your preferred light saber color
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Palpatine has picked asdkskad as the very first combattant today!
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 95 is:19
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Luke Skywalker
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 95 is:0
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 95 is:86
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Darth Vader
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked asdkskad
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 50 is:32
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Obi-Wan Kenobi
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 25 is:17
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 95 is:5
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Darth Vader
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Luke Skywalker
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 25 is:24
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Else clause is hit, and ol' Palpatine has just picked asdkskad
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 50 is:15
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Else clause is hit, and ol' Palpatine has just picked Luke Skywalker
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 10 is:6
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 10 is:0
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Darth Vader
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Luke Skywalker
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 25 is:24
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Else clause is hit, and ol' Palpatine has just picked asdkskad
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 10 is:8
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Else if clause is hit, and ol' Palpatine has just set a damage level of Hurting for Luke Skywalker who was previously offed, now returning him safely to the battle field once again!
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Obi-Wan Kenobi
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 10 is:3
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Else if clause is hit, and ol' Palpatine has just set a damage level of Hurting for asdkskad who was previously offed, now returning him safely to the battle field once again!
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Darth Vader
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 50 is:38
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 95 is:52
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :asdkskad has been touched by Palpatine's benign white lightning and now has a damage level betterment of Healthy
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Darth Vader has been touched by Palpatine's benign white lightning and now has a damage level betterment of Hurting
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Luke Skywalker has been touched by Palpatine's evil blue lightning and now has a damage level of Hurting
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Obi-Wan Kenobi has been touched by Palpatine's evil blue lightning and now has a damage level of Challenged
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked asdkskad
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 25 is:17
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Luke Skywalker
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 25 is:2
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 95 is:53
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Obi-Wan Kenobi
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 95 is:15
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked asdkskad
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 10 is:6
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Luke Skywalker
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Darth Vader
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 50 is:33
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 50 is:40
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :asdkskad has been touched by Palpatine's benign white lightning and now has a damage level betterment of Hurting
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Darth Vader has been touched by Palpatine's benign white lightning and now has a damage level betterment of Hurting
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Luke Skywalker has been touched by Palpatine's evil blue lightning and now has a damage level of Hurting
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Obi-Wan Kenobi has been touched by Palpatine's evil blue lightning and now has a damage level of Critical
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked asdkskad
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Random health level number generated from max value 25 is:8
+-------------------------------
+
+Log Entry : 13.08.58 Thursday, 6 November 2025
+  :Else if clause is hit, and ol' Palpatine has just set a damage level of Hurting for Luke Skywalker who was previously offed, now returning him safely to the battle field once again!
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Palpatine has picked Darth Vader as the very first combattant today!
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 95 is:78
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Luke Skywalker
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 95 is:8
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 95 is:18
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Else clause is hit, and ol' Palpatine has just picked asdasd
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 95 is:55
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Else clause is hit, and ol' Palpatine has just picked Luke Skywalker
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 10 is:8
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Darth Vader
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 95 is:60
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :asdasd has been touched by Palpatine's benign white lightning and now has a damage level betterment of Healthy
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Darth Vader has been touched by Palpatine's benign white lightning and now has a damage level betterment of Hurting
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Luke Skywalker has been touched by Palpatine's evil blue lightning and now has a damage level of Challenged
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Luke Skywalker
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 25 is:18
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 95 is:19
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Else if clause is hit, and ol' Palpatine has just set a damage level of Hurting for asdasd who was previously offed, now returning him safely to the battle field once again!
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Darth Vader
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 50 is:33
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :asdasd has been touched by Palpatine's benign white lightning and now has a damage level betterment of Healthy
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Darth Vader has been touched by Palpatine's benign white lightning and now has a damage level betterment of Hurting
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Luke Skywalker has been touched by Palpatine's evil blue lightning and now has a damage level of Critical
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Luke Skywalker
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Darth Vader
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 50 is:24
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Luke Skywalker
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 25 is:14
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 95 is:91
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked asdasd
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 50 is:32
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Luke Skywalker
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 10 is:6
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 95 is:44
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked asdasd
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 50 is:36
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Obi-Wan Kenobi
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 50 is:13
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Darth Vader
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 50 is:39
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 95 is:79
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :asdasd has been touched by Palpatine's benign white lightning and now has a damage level betterment of Healthy
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Darth Vader has been touched by Palpatine's benign white lightning and now has a damage level betterment of Hurting
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Luke Skywalker has been touched by Palpatine's evil blue lightning and now has a damage level of Hurting
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Obi-Wan Kenobi has been touched by Palpatine's evil blue lightning and now has a damage level of Challenged
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Else clause is hit, and ol' Palpatine has just picked Luke Skywalker
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 25 is:4
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 95 is:23
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked asdasd
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Else clause is hit, and ol' Palpatine has just picked Luke Skywalker
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 50 is:11
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked asdasd
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 25 is:23
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Darth Vader
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 10 is:8
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 50 is:21
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :asdasd has been touched by Palpatine's benign white lightning and now has a damage level betterment of Hurting
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Darth Vader has been touched by Palpatine's benign white lightning and now has a damage level betterment of Hurting
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Luke Skywalker has been touched by Palpatine's evil blue lightning and now has a damage level of Critical
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Obi-Wan Kenobi has been touched by Palpatine's evil blue lightning and now has a damage level of Wasted
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked asdasd
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 10 is:6
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Else if clause is hit, and ol' Palpatine has just set a damage level of Hurting for Luke Skywalker who was previously offed, now returning him safely to the battle field once again!
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :First condition is hit, and ol' Palpatine has picked Darth Vader
+-------------------------------
+
+Log Entry : 13.11.21 Thursday, 6 November 2025
+  :Random health level number generated from max value 50 is:14
+-------------------------------

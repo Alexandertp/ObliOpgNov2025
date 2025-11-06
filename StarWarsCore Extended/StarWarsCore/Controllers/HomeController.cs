@@ -48,6 +48,9 @@ namespace StarWarsCore.Controllers
 
                     Castiel castiel = new Castiel();
                     gameLog.FightEvents.AddRange(castiel.Weapons);
+
+                    Vampire bob = new Vampire("Bob");
+                    gameLog.FightEvents.Add("\n" + bob.Name);
                     
                     // start up first knight in game log
                     gameLog.FightEvents.AddRange(ListOutput(myWarrior.FightLog.FightEvents));

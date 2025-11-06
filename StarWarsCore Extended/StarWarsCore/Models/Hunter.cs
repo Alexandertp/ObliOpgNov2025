@@ -15,6 +15,7 @@ public class Hunter : Creature
         Weapons.Add("Machete");
         Weapons.Add("Silver Blade");
         Weapons.Add("Exorcism");
+        Weapons.Add("Colt");
     }
     public List<string> Weapons = new List<string>();
 }
