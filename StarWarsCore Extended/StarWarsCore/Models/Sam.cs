@@ -14,8 +14,8 @@ namespace StarWarsCore.Models
             CurrentDamageLevel = Creature.DamageLevel.Healthy;
             Greeting = "I've been tortured by the Devil himself. So you, you're just an accent in a pantsuit. What can you do to me?";
             LastWords = "Dude I just got whaled on by Paris Hilton";
-            FightLog = new AttackRecorder();
-            FightLog.FightEvents = new List<string>()
+            ActionComment = new AttackRecorder();
+            ActionComment.FightEvents = new List<string>()
             {
                 Name + "Dude, you're confusing reality with porn again.",
                 Name + "And you know what? After we kill it, we can go to Disneyland!",
