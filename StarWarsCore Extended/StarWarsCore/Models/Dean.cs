@@ -12,8 +12,8 @@ public class Dean : Hunter
         Greeting = "Hey. Do you know who wears sunglasses inside? Blind people and douchebags.";
         LastWords = "I'm beyond saving. I know how my story is gonna end. It's at the edge of a blade or the barrel of a gun.";
         CurrentDamageLevel = Creature.DamageLevel.Healthy;
-        FightLog = new AttackRecorder();
-        FightLog.FightEvents = new List<string>()
+        ActionComment = new AttackRecorder();
+        ActionComment.FightEvents = new List<string>()
         {
             Name + "You hold him down while we knife him, and then we'll all go out for ice cream and strippers.",
             Name + "Life as an angel condom. That's real fun.",
