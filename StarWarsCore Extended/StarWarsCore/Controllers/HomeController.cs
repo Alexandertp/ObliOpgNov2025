@@ -45,7 +45,9 @@ namespace StarWarsCore.Controllers
                     myWarrior.CurrentDamageLevel = JediKnight.DamageLevel.Healthy;
                     myWarrior.DarkSide = newWarrior.DarkSide;
                     myWarrior.Deceased = false;
-                    
+
+                    Castiel castiel = new Castiel();
+                    gameLog.FightEvents.AddRange(castiel.Weapons);
                     
                     // start up first knight in game log
                     gameLog.FightEvents.AddRange(ListOutput(myWarrior.FightLog.FightEvents));

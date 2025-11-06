@@ -24,9 +24,10 @@ public abstract class Creature
         
     }
 
-    public AttackRecorder Fightlog;
+    public AttackRecorder ActionComment;
     public string Greeting;
     public string LastWords;
     public bool isDead = false;
+    
     
 }
