@@ -22,10 +22,13 @@ public class Hunter : Creature
 
     public void Fight(Hunter attacker,  Monster defender)
     {
-        base.Fight(attacker, defender);
         if (defender.Weaknesses.Contains(attacker.currentWeapon))
         {
             base.Fight(attacker, defender, 2);
+        }
+        else
+        {
+            base.Fight(attacker, defender);
         }
     }
 }

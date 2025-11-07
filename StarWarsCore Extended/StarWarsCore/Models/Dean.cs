@@ -15,19 +15,19 @@ public class Dean : Hunter
         ActionComment = new AttackRecorder();
         ActionComment.FightEvents = new List<string>()
         {
-            Name + "You hold him down while we knife him, and then we'll all go out for ice cream and strippers.",
-            Name + "Life as an angel condom. That's real fun.",
-            Name + "What kind of douchebag names a character after himself?",
-            Name + "I'm not wearing any makeup. Oh crap. I'm a painted whore.",
-            Name + "What I'm good at... is slicing throats. I ain't a father. I'm a killer. And there's no changing that. I know that now.",
-            Name + "You're just as screwed up as I am, you're just... bigger.",
-            Name + "I'm going to go hit the poop deck.",
-            Name + "Karma's a bitch, bitch.",
-            Name + "Let me get dressed, Robo-Cop.",
-            Name + "What are you, the Hamburglar?",
-            Name + "Eat it, Twilight!",
-            Name + "I'm Batman.",
-            Name + "Dude, you're fugly."
+            Name + ": You hold him down while we knife him, and then we'll all go out for ice cream and strippers.",
+            Name + ": Life as an angel condom. That's real fun.",
+            Name + ": What kind of douchebag names a character after himself?",
+            Name + ": I'm not wearing any makeup. Oh crap. I'm a painted whore.",
+            Name + ": What I'm good at... is slicing throats. I ain't a father. I'm a killer. And there's no changing that. I know that now.",
+            Name + ": You're just as screwed up as I am, you're just... bigger.",
+            Name + ": I'm going to go hit the poop deck.",
+            Name + ": Karma's a bitch, bitch.",
+            Name + ": Let me get dressed, Robo-Cop.",
+            Name + ": What are you, the Hamburglar?",
+            Name + ": Eat it, Twilight!",
+            Name + ": I'm Batman.",
+            Name + ": Dude, you're fugly."
         };
         
     }
