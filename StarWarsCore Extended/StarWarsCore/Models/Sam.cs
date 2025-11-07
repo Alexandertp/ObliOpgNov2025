@@ -17,12 +17,12 @@ namespace StarWarsCore.Models
             ActionComment = new AttackRecorder();
             ActionComment.FightEvents = new List<string>()
             {
-                Name + "Dude, you're confusing reality with porn again.",
-                Name + "And you know what? After we kill it, we can go to Disneyland!",
-                Name + "What kind of house doesn't have salt? Low sodium FREAKS.",
-                Name + "Dude, you're not going to poke her with a stick.",
-                Name + "You're bossy, and short.",
-                Name + "Wait, there's no such things as unicorns?"
+                Name + ": Dude, you're confusing reality with porn again.",
+                Name + ": And you know what? After we kill it, we can go to Disneyland!",
+                Name + ": What kind of house doesn't have salt? Low sodium FREAKS.",
+                Name + ": Dude, you're not going to poke her with a stick.",
+                Name + ": You're bossy, and short.",
+                Name + ": Wait, there's no such things as unicorns?"
             };
 
         }
