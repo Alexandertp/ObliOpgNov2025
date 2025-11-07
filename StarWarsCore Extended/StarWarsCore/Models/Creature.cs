@@ -28,6 +28,9 @@ public abstract class Creature
     public string Greeting;
     public string LastWords;
     public bool isDead = false;
-    
-    
+
+    public void Fight(Creature attacker, Creature defender)
+    {
+        
+    }
 }

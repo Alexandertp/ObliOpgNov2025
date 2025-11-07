@@ -91,7 +91,7 @@ namespace StarWarsCore.Controllers
                         warrior.FightLog.FightEvents.Clear();
                         warrior.FightLog.FightEvents.Add("The Evil Emperor randomly points a bony finger at " + warrior.Name + " and says: 'do some nasty work for me - now!'");
 
-                        // Attack opponents, but only if they are on the opposing side, and only if you aren't dead yourself..yet.                                      
+                        // Attack opponents, but only if they are on the opposing side, and only if you aren't dead yourself..yet.            
                         switch (warrior.Name)
                         {
                             case "Darth Vader":
