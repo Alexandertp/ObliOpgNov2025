@@ -29,13 +29,23 @@ public abstract class Creature
     public string LastWords;
     public bool isDead = false;
 
-    public void Fight(Creature attacker, Creature defender)
+    public virtual void Fight(Creature attacker, Creature defender, int bonusDamage = 0)
     {
         int damage = RandomGenerator.Rand.Next((int)defender.CurrentDamageLevel);
+        if (bonusDamage != 0)
+        {
+            damage -= bonusDamage;
+            if (damage < 1)
+            {
+                damage = 1;
+            }
+        }
+
         switch (damage)
         {
             case 1 :
                 defender.CurrentDamageLevel = DamageLevel.Dead;
+                defender.isDead = true;
                 break;
             case 2 :
                 defender.CurrentDamageLevel = DamageLevel.Unconscious;
@@ -63,4 +73,5 @@ public abstract class Creature
             
         }
     }
+    
 }

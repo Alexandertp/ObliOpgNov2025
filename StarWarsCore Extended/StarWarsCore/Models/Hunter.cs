@@ -18,4 +18,14 @@ public class Hunter : Creature
         Weapons.Add("Colt");
     }
     public List<string> Weapons = new List<string>();
+    public string currentWeapon;
+
+    public void Fight(Hunter attacker,  Monster defender)
+    {
+        base.Fight(attacker, defender);
+        if (defender.Weaknesses.Contains(attacker.currentWeapon))
+        {
+            base.Fight(attacker, defender, 2);
+        }
+    }
 }
