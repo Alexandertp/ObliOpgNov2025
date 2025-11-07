@@ -8,14 +8,14 @@ public abstract class Creature
 
     public enum DamageLevel
     {
-        Healthy = 7,
-        LightlyInjured = 6,
-        Injured = 5,
-        BadlyInjured = 4,
-        Bloodied = 3,
-        NearDeath = 2,
-        Unconscious = 1,
-        Dead = 0
+        Healthy = 8,
+        LightlyInjured = 7,
+        Injured = 6,
+        BadlyInjured = 5,
+        Bloodied = 4,
+        NearDeath = 3,
+        Unconscious = 2,
+        Dead = 1
     }
     public DamageLevel CurrentDamageLevel;
     
@@ -31,6 +31,36 @@ public abstract class Creature
 
     public void Fight(Creature attacker, Creature defender)
     {
-        
+        int damage = RandomGenerator.Rand.Next((int)defender.CurrentDamageLevel);
+        switch (damage)
+        {
+            case 1 :
+                defender.CurrentDamageLevel = DamageLevel.Dead;
+                break;
+            case 2 :
+                defender.CurrentDamageLevel = DamageLevel.Unconscious;
+                break;
+            case 3 :
+                defender.CurrentDamageLevel = DamageLevel.NearDeath;
+                break;
+            case 4 :
+                defender.CurrentDamageLevel = DamageLevel.Bloodied;
+                break;
+            case 5 :
+                defender.CurrentDamageLevel = DamageLevel.BadlyInjured;
+                break;
+            case 6 :
+                defender.CurrentDamageLevel = DamageLevel.Injured;
+                break;
+            case 7 :
+                defender.CurrentDamageLevel = DamageLevel.LightlyInjured;
+                break;
+            case 8 :
+                defender.CurrentDamageLevel = DamageLevel.Healthy;
+                break;
+            default:
+                break;
+            
+        }
     }
 }
