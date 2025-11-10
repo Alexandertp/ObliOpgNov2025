@@ -134,6 +134,11 @@ namespace StarWarsCore.Controllers
                         gameLog.FightEvents.Add("</br>");
                         gameLog.FightEvents.Add(hunters[offer].Name + " is " + hunters[offer].CurrentDamageLevel.ToString());
                         gameLog.FightEvents.Add("</br>");
+                        if ((int)hunters[offer].CurrentDamageLevel <= 2 && hunters[offer].Name != "Castiel")
+                        {
+                            castiel.SaveABrother(hunters[offer]);
+                            gameLog.FightEvents.Add(castiel.Name + " has just saved " + hunters[offer].Name + " from near death!" + "</br>");
+                        }
                     }
                     // Run battle scenario umpteen times, enough to kill one of our protagonists outright a few times over. And to bring in Obi-Wan.
                     for (int i = 1; i < 25; i++)

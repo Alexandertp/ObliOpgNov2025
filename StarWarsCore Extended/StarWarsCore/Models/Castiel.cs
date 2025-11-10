@@ -28,5 +28,11 @@ namespace StarWarsCore.Models
         {
             Weapons.Add(input);
         }
+
+        public void SaveABrother(Hunter brother)
+        {
+            brother.CurrentDamageLevel = DamageLevel.Healthy;
+            brother.isDead = false;
+        }
     }
 }
