@@ -100,8 +100,12 @@ namespace StarWarsCore.Controllers
                         hunters[initiative].Fight(hunters[initiative], monsters[offer]);
                         // Tilføj en actionComment fra den samme hunter som lige har angrebet og tilføj den til gameLog
                         gameLog.FightEvents.Add(hunters[initiative].ActionComment.FightEvents[RandomGenerator.Rand.Next(hunters[initiative].ActionComment.FightEvents.Count)]);
-                    }
+                        initiative = RandomGenerator.Rand.Next(monsters.Count);
+                        offer = RandomGenerator.Rand.Next(hunters.Count);
+                        monsters[initiative].Fight(monsters[initiative], hunters[offer]);
+                        gameLog.FightEvents.Add(monsters[initiative].ActionComment.FightEvents[RandomGenerator.Rand.Next(monsters[initiative].ActionComment.FightEvents.Count)]);
 
+                    }
                     // Run battle scenario umpteen times, enough to kill one of our protagonists outright a few times over. And to bring in Obi-Wan.
                     for (int i = 1; i < 25; i++)
                     {
