@@ -46,11 +46,6 @@ namespace StarWarsCore.Controllers
                     myWarrior.DarkSide = newWarrior.DarkSide;
                     myWarrior.Deceased = false;
 
-                    Castiel castiel = new Castiel();
-                    gameLog.FightEvents.AddRange(castiel.Weapons);
-
-                    Vampire bob = new Vampire("Bob");
-                    gameLog.FightEvents.Add("\n" + bob.Name);
                     
                     // start up first knight in game log
                     gameLog.FightEvents.AddRange(ListOutput(myWarrior.FightLog.FightEvents));
@@ -80,12 +75,27 @@ namespace StarWarsCore.Controllers
 
                     List<Hunter>hunters = new List<Hunter>();
                     List<Monster>monsters = new List<Monster>();
-                    hunters.Add(new Sam());
-                    hunters.Add(new Dean());
-                    hunters.Add(new Castiel());
+                    Sam sam = new Sam();
+                    Dean dean = new Dean();
+                    Castiel castiel = new Castiel();
+                    hunters.Add(sam);
+                    hunters.Add(dean);
+                    hunters.Add(castiel);
+
+                    Vampire vampBob = new Vampire("Bob");
+                    Ghost ghost = new Ghost("Magrethe");
+                    Demon demonAsmon = new Demon("Asmongold");
+                    monsters.Add(vampBob);
+                    monsters.Add(ghost);
+                    monsters.Add(demonAsmon);
 
                     gameLog.FightEvents.Add("</br>" + hunters[0].Name);
-                   
+
+                    // CombatLoop der kører indtil enten alle hunters eller monsters er døde
+                    while (hunters.Any(x => x.isDead == false) && monsters.Any(x => x.isDead == false))
+                    {
+
+                    }
 
                     // Run battle scenario umpteen times, enough to kill one of our protagonists outright a few times over. And to bring in Obi-Wan.
                     for (int i = 1; i < 25; i++)
