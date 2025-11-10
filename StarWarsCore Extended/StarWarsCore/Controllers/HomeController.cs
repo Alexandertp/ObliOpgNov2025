@@ -94,14 +94,28 @@ namespace StarWarsCore.Controllers
                     // CombatLoop der kører indtil enten alle hunters eller monsters er døde
                     while (hunters.Any(x => x.isDead == false) && monsters.Any(x => x.isDead == false))
                     {
-                        int initiative = RandomGenerator.Rand.Next(hunters.Count);
-                        int offer = RandomGenerator.Rand.Next(monsters.Count);
+                        int initiative = 0;
+                        do
+                        {
+                            initiative = RandomGenerator.Rand.Next(hunters.Count);
+                        } while (hunters[initiative].isDead);
+                        int offer = 0;
+                        do
+                        {
+                           offer = RandomGenerator.Rand.Next(monsters.Count);
+                        } while (monsters[offer].isDead);
                         // hunters angriber først
                         hunters[initiative].Fight(hunters[initiative], monsters[offer]);
                         // Tilføj en actionComment fra den samme hunter som lige har angrebet og tilføj den til gameLog
                         gameLog.FightEvents.Add(hunters[initiative].ActionComment.FightEvents[RandomGenerator.Rand.Next(hunters[initiative].ActionComment.FightEvents.Count)]);
-                        initiative = RandomGenerator.Rand.Next(monsters.Count);
-                        offer = RandomGenerator.Rand.Next(hunters.Count);
+                        do 
+                        {
+                            initiative = RandomGenerator.Rand.Next(monsters.Count);
+                        } while (monsters[initiative].isDead);
+                        do
+                        {
+                            offer = RandomGenerator.Rand.Next(hunters.Count);
+                        } while (hunters[offer].isDead);
                         monsters[initiative].Fight(monsters[initiative], hunters[offer]);
                         gameLog.FightEvents.Add(monsters[initiative].ActionComment.FightEvents[RandomGenerator.Rand.Next(monsters[initiative].ActionComment.FightEvents.Count)]);
 
