@@ -14,8 +14,8 @@ public class Vampire : Monster
         ActionComment = new AttackRecorder();
         ActionComment.FightEvents = new List<string>()
         {
-            Name + "Blah, Blah, Blah",
-            Name + "Jeg slikker på din pulsåre, Blah BBBLAHHH"
+            Name + ": Blah, Blah, Blah",
+            Name + ": Jeg slikker på din pulsåre, Blah BBBLAHHH"
 
         };
         
