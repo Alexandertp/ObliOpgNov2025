@@ -78,6 +78,15 @@ namespace StarWarsCore.Controllers
                     // clear a few lines of output for spacing the battle data from preliminary speech
                     gameLog.FightEvents.Add("</br></br>");
 
+                    List<Hunter>hunters = new List<Hunter>();
+                    List<Monster>monsters = new List<Monster>();
+                    hunters.Add(new Sam());
+                    hunters.Add(new Dean());
+                    hunters.Add(new Castiel());
+
+                    gameLog.FightEvents.Add("</br>" + hunters[0].Name);
+                   
+
                     // Run battle scenario umpteen times, enough to kill one of our protagonists outright a few times over. And to bring in Obi-Wan.
                     for (int i = 1; i < 25; i++)
                     {
