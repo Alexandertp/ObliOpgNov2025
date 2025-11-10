@@ -94,7 +94,12 @@ namespace StarWarsCore.Controllers
                     // CombatLoop der kører indtil enten alle hunters eller monsters er døde
                     while (hunters.Any(x => x.isDead == false) && monsters.Any(x => x.isDead == false))
                     {
-
+                        int initiative = RandomGenerator.Rand.Next(hunters.Count);
+                        int offer = RandomGenerator.Rand.Next(monsters.Count);
+                        // hunters angriber først
+                        hunters[initiative].Fight(hunters[initiative], monsters[offer]);
+                        // Tilføj en actionComment fra den samme hunter som lige har angrebet og tilføj den til gameLog
+                        gameLog.FightEvents.Add(hunters[initiative].ActionComment.FightEvents[RandomGenerator.Rand.Next(hunters[initiative].ActionComment.FightEvents.Count)]);
                     }
 
                     // Run battle scenario umpteen times, enough to kill one of our protagonists outright a few times over. And to bring in Obi-Wan.
