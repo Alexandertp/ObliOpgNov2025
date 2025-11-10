@@ -106,8 +106,11 @@ namespace StarWarsCore.Controllers
                         } while (monsters[offer].isDead);
                         // hunters angriber først
                         hunters[initiative].Fight(hunters[initiative], monsters[offer]);
+                        gameLog.FightEvents.Add(monsters[offer].Name + " is " + monsters[offer].CurrentDamageLevel.ToString());
+                        gameLog.FightEvents.Add("</br>");
                         // Tilføj en actionComment fra den samme hunter som lige har angrebet og tilføj den til gameLog
                         gameLog.FightEvents.Add(hunters[initiative].ActionComment.FightEvents[RandomGenerator.Rand.Next(hunters[initiative].ActionComment.FightEvents.Count)]);
+                        gameLog.FightEvents.Add("</br>");
                         do 
                         {
                             initiative = RandomGenerator.Rand.Next(monsters.Count);
@@ -117,8 +120,10 @@ namespace StarWarsCore.Controllers
                             offer = RandomGenerator.Rand.Next(hunters.Count);
                         } while (hunters[offer].isDead);
                         monsters[initiative].Fight(monsters[initiative], hunters[offer]);
+                        gameLog.FightEvents.Add(hunters[offer].Name + " is " + hunters[offer].CurrentDamageLevel.ToString());
+                        gameLog.FightEvents.Add("</br>");
                         gameLog.FightEvents.Add(monsters[initiative].ActionComment.FightEvents[RandomGenerator.Rand.Next(monsters[initiative].ActionComment.FightEvents.Count)]);
-
+                        gameLog.FightEvents.Add("</br>");
                     }
                     // Run battle scenario umpteen times, enough to kill one of our protagonists outright a few times over. And to bring in Obi-Wan.
                     for (int i = 1; i < 25; i++)
