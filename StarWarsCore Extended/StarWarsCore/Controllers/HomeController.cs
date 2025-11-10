@@ -91,6 +91,14 @@ namespace StarWarsCore.Controllers
 
                     gameLog.FightEvents.Add("</br>" + hunters[0].Name);
 
+                    castiel.currentWeapon = castiel.Weapons[RandomGenerator.Rand.Next(0, castiel.Weapons.Count)];
+                    dean.currentWeapon = dean.Weapons[RandomGenerator.Rand.Next(0, dean.Weapons.Count)];
+                    sam.currentWeapon = sam.Weapons[RandomGenerator.Rand.Next(0, sam.Weapons.Count)];
+
+                    gameLog.FightEvents.Add(castiel.Name + " retrieves his trusty " + castiel.currentWeapon + "</br>");
+                    gameLog.FightEvents.Add(dean.Name + " opens his trunk and gets out his " + dean.currentWeapon + "</br>");
+                    gameLog.FightEvents.Add(sam.Name + " finds a random " + sam.currentWeapon + " on the ground." + "</br>");
+
                     // CombatLoop der kører indtil enten alle hunters eller monsters er døde
                     while (hunters.Any(x => x.isDead == false) && monsters.Any(x => x.isDead == false))
                     {
