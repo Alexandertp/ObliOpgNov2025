@@ -123,7 +123,7 @@ namespace StarWarsCore.Controllers
                     }
                     
                     // Set up viewbag list of event strings
-                    ViewBag.FightDescription = new List<string> { "<p><div class='lead'>" + "A long time ago in a galaxy far, far away...." + "</div></p>" };
+                    ViewBag.FightDescription = new List<string> { "<p><div class='lead'>" + "" + "</div></p>" };
 
                     // put the game log contents into the ViewBag
                     foreach (string FightEvent in gameLog.FightEvents)

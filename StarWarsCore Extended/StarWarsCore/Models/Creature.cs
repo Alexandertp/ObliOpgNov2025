@@ -18,11 +18,6 @@ public abstract class Creature
         Dead = 1
     }
     public DamageLevel CurrentDamageLevel;
-    
-    public enum AttackAction
-    {
-        
-    }
 
     public AttackRecorder ActionComment;
     public string Greeting;
