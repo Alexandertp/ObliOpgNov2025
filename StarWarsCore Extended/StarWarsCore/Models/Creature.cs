@@ -23,6 +23,7 @@ public abstract class Creature
     public string Greeting;
     public string LastWords;
     public bool isDead = false;
+    public string imageURL = "";
 
     public virtual void Fight(Creature attacker, Creature defender, int bonusDamage = 0)
     {
@@ -68,5 +69,6 @@ public abstract class Creature
             
         }
     }
+    
     
 }

@@ -77,6 +77,8 @@ namespace StarWarsCore.Controllers
                     {
                         gameLog.FightEvents.Add(FightRound(hunters, monsters));
                         gameLog.FightEvents.Add(FightRound(monsters, hunters));
+                        
+                        
                         /*
                             int initiative = 0;
                             do
@@ -114,18 +116,7 @@ namespace StarWarsCore.Controllers
                             gameLog.FightEvents.Add(hunters[offer].Name + " is " + hunters[offer].CurrentDamageLevel.ToString());
                             gameLog.FightEvents.Add("</br>");
 
-                            foreach (Hunter hunter in hunters)
-                            {
-                                if (hunter.Name == "Castiel" && !hunter.isDead)
-                                {
-                                    if ((int)hunters[offer].CurrentDamageLevel <= 2 && hunters[offer].Name != "Castiel")
-                                    {
-                                        castiel.SaveABrother(hunters[offer]);
-                                        gameLog.FightEvents.Add(castiel.Name + " has just saved " + hunters[offer].Name + " from near death!" + "</br>");
-
-                                    }
-                                }
-                            }
+                            
                         */
                     }
                     // Set up viewbag list of event strings
@@ -279,6 +270,7 @@ namespace StarWarsCore.Controllers
             if (attacker[initiative] is Hunter hunter)
             {
                 roundResult += hunter.Name + " hits " + defender[offer].Name + " with his " + hunter.currentWeapon;
+                
 
             }
             else
@@ -288,6 +280,14 @@ namespace StarWarsCore.Controllers
             roundResult += "</br>";
             roundResult += defender[offer].Name + " is " + defender[offer].CurrentDamageLevel.ToString();
             roundResult += "</br>";
+            //TODO: find castiel index dynamically
+            if (defender[2].Name == "Castiel" && !defender[2].isDead)
+            {
+                if (defender[2] is Castiel castiel && (int)defender[offer].CurrentDamageLevel <= 2 && defender[offer].Name != "Castiel")
+                {
+                    castiel.SaveABrother((Hunter)defender[offer]);
+                }
+            }
             return roundResult;
         }
     }

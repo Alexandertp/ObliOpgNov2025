@@ -4,6 +4,7 @@ namespace StarWarsCore.Models
 {
     public class Castiel : Hunter
     {
+        public string rescueImage = "../images/Castiel SaveABrother.gif";
         public Castiel()
         {
             Name = "Castiel";
@@ -12,6 +13,7 @@ namespace StarWarsCore.Models
             Greeting = "I'm an angel, you ass!";
             LastWords = "Pull my finger *Dies of cringe*";
             AddWeapon("Angel Blade");
+            imageURL = "../images/Castiel Attack.webp";
             ActionComment = new AttackRecorder();
             ActionComment.FightEvents = new List<string>()
             {
@@ -34,5 +36,7 @@ namespace StarWarsCore.Models
             brother.CurrentDamageLevel = DamageLevel.Healthy;
             brother.isDead = false;
         }
+        
+        
     }
 }

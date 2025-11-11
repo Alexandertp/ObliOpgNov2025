@@ -12,6 +12,7 @@ public class Dean : Hunter
         Greeting = "Hey. Do you know who wears sunglasses inside? Blind people and douchebags.";
         LastWords = "I'm beyond saving. I know how my story is gonna end. It's at the edge of a blade or the barrel of a gun.";
         CurrentDamageLevel = Creature.DamageLevel.Healthy;
+        imageURL = "../images/Dean attack.gif";
         ActionComment = new AttackRecorder();
         ActionComment.FightEvents = new List<string>()
         {
@@ -30,5 +31,7 @@ public class Dean : Hunter
             Name + ": Dude, you're fugly."
         };
         
+        
     }
+    
 }
