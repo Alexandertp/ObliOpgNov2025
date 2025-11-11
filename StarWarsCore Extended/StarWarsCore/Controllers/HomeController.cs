@@ -35,7 +35,7 @@ namespace StarWarsCore.Controllers
                 {
                     // Set up a game log of Fight Events
                     AttackRecorder gameLog = new AttackRecorder();
-                    gameLog.FightEvents = new List<string>() { "..the game log was the only book in town that the Evil Emperor wanted to read." + "</br>" };
+                    gameLog.FightEvents = new List<string>();
 
                     // Set up a Jedi Warrior object - using the data entered in the form
                     ThePlayer myWarrior = new ThePlayer();
@@ -46,8 +46,8 @@ namespace StarWarsCore.Controllers
                     myWarrior.DarkSide = newWarrior.DarkSide;
                     myWarrior.Deceased = false;
 
-                    List<Hunter>hunters = new List<Hunter>();
-                    List<Monster>monsters = new List<Monster>();
+                    List <Creature> hunters = new List <Creature>();
+                    List <Creature> monsters = new List <Creature>();
                     Sam sam = new Sam();
                     Dean dean = new Dean();
                     Castiel castiel = new Castiel();
@@ -70,58 +70,64 @@ namespace StarWarsCore.Controllers
                     gameLog.FightEvents.Add(dean.Name + " opens his trunk and gets out his " + dean.currentWeapon + "</br>");
                     gameLog.FightEvents.Add(sam.Name + " finds a random " + sam.currentWeapon + " on the ground." + "</br>");
 
+
+
                     // CombatLoop der kører indtil enten alle hunters eller monsters er døde
                     while (hunters.Any(x => x.isDead == false) && monsters.Any(x => x.isDead == false))
                     {
-                        int initiative = 0;
-                        do
-                        {
-                            initiative = RandomGenerator.Rand.Next(hunters.Count);
-                        } while (hunters[initiative].isDead);
-                        int offer = 0;
-                        do
-                        {
-                           offer = RandomGenerator.Rand.Next(monsters.Count);
-                        } while (monsters[offer].isDead);
-                        // hunters angriber først
-                        hunters[initiative].Fight(hunters[initiative], monsters[offer]);
-                        // Tilføj en actionComment fra den samme hunter som lige har angrebet og tilføj den til gameLog
-                        gameLog.FightEvents.Add(hunters[initiative].ActionComment.FightEvents[RandomGenerator.Rand.Next(hunters[initiative].ActionComment.FightEvents.Count)]);
-                        gameLog.FightEvents.Add("</br>"); // Tilføj linjeskift
-                        gameLog.FightEvents.Add(hunters[initiative].Name + " hits " + monsters[offer].Name + " with his " + hunters[initiative].currentWeapon);
-                        gameLog.FightEvents.Add("</br>");
-                        gameLog.FightEvents.Add(monsters[offer].Name + " is " + monsters[offer].CurrentDamageLevel.ToString());
-                        gameLog.FightEvents.Add("</br>");
-                        do 
-                        {
-                            initiative = RandomGenerator.Rand.Next(monsters.Count);
-                        } while (monsters[initiative].isDead);
-                        do
-                        {
-                            offer = RandomGenerator.Rand.Next(hunters.Count);
-                        } while (hunters[offer].isDead);
-                        monsters[initiative].Fight(monsters[initiative], hunters[offer]);
-                        gameLog.FightEvents.Add(monsters[initiative].ActionComment.FightEvents[RandomGenerator.Rand.Next(monsters[initiative].ActionComment.FightEvents.Count)]);
-                        gameLog.FightEvents.Add("</br>");
-                        gameLog.FightEvents.Add(monsters[initiative].Name + " uses their supernatural strength to send an attack towards " + hunters[offer].Name);
-                        gameLog.FightEvents.Add("</br>");
-                        gameLog.FightEvents.Add(hunters[offer].Name + " is " + hunters[offer].CurrentDamageLevel.ToString());
-                        gameLog.FightEvents.Add("</br>");
-
-                        foreach (Hunter hunter in hunters)
-                        {
-                            if (hunter.Name == "Castiel" && !hunter.isDead)
+                        gameLog.FightEvents.Add(FightRound(hunters, monsters));
+                        gameLog.FightEvents.Add(FightRound(monsters, hunters));
+                        /*
+                            int initiative = 0;
+                            do
                             {
-                                if ((int)hunters[offer].CurrentDamageLevel <= 2 && hunters[offer].Name != "Castiel")
-                                {
-                                    castiel.SaveABrother(hunters[offer]);
-                                    gameLog.FightEvents.Add(castiel.Name + " has just saved " + hunters[offer].Name + " from near death!" + "</br>");
+                                initiative = RandomGenerator.Rand.Next(hunters.Count);
+                            } while (hunters[initiative].isDead);
+                            int offer = 0;
+                            do
+                            {
+                                offer = RandomGenerator.Rand.Next(monsters.Count);
+                            } while (monsters[offer].isDead);
+                            // hunters angriber først
+                            hunters[initiative].Fight(hunters[initiative], monsters[offer]);
+                            // Tilføj en actionComment fra den samme hunter som lige har angrebet og tilføj den til gameLog
+                            gameLog.FightEvents.Add(hunters[initiative].ActionComment.FightEvents[RandomGenerator.Rand.Next(hunters[initiative].ActionComment.FightEvents.Count)]);
+                            gameLog.FightEvents.Add("</br>"); // Tilføj linjeskift
+                            gameLog.FightEvents.Add(hunters[initiative].Name + " hits " + monsters[offer].Name + " with his " + hunters[initiative].currentWeapon);
+                            gameLog.FightEvents.Add("</br>");
+                            gameLog.FightEvents.Add(monsters[offer].Name + " is " + monsters[offer].CurrentDamageLevel.ToString());
+                            gameLog.FightEvents.Add("</br>");
+                            // nu er det monstrenes tur
+                            do
+                            {
+                                initiative = RandomGenerator.Rand.Next(monsters.Count);
+                            } while (monsters[initiative].isDead);
+                            do
+                            {
+                                offer = RandomGenerator.Rand.Next(hunters.Count);
+                            } while (hunters[offer].isDead);
+                            monsters[initiative].Fight(monsters[initiative], hunters[offer]);
+                            gameLog.FightEvents.Add(monsters[initiative].ActionComment.FightEvents[RandomGenerator.Rand.Next(monsters[initiative].ActionComment.FightEvents.Count)]);
+                            gameLog.FightEvents.Add("</br>");
+                            gameLog.FightEvents.Add(monsters[initiative].Name + " uses their supernatural strength to send an attack towards " + hunters[offer].Name);
+                            gameLog.FightEvents.Add("</br>");
+                            gameLog.FightEvents.Add(hunters[offer].Name + " is " + hunters[offer].CurrentDamageLevel.ToString());
+                            gameLog.FightEvents.Add("</br>");
 
+                            foreach (Hunter hunter in hunters)
+                            {
+                                if (hunter.Name == "Castiel" && !hunter.isDead)
+                                {
+                                    if ((int)hunters[offer].CurrentDamageLevel <= 2 && hunters[offer].Name != "Castiel")
+                                    {
+                                        castiel.SaveABrother(hunters[offer]);
+                                        gameLog.FightEvents.Add(castiel.Name + " has just saved " + hunters[offer].Name + " from near death!" + "</br>");
+
+                                    }
                                 }
                             }
-                        }
+                        */
                     }
-                    
                     // Set up viewbag list of event strings
                     ViewBag.FightDescription = new List<string> { "<p><div class='lead'>" + "" + "</div></p>" };
 
@@ -250,6 +256,39 @@ namespace StarWarsCore.Controllers
 
             var errorList = query.ToList();
             return errorList;
+        }
+
+        private string FightRound(List <Creature> attacker, List <Creature> defender) 
+        {
+            string roundResult = "";
+            int initiative = 0;
+            do
+            {
+                initiative = RandomGenerator.Rand.Next(attacker.Count);
+            } while (attacker[initiative].isDead);
+            int offer = 0;
+            do
+            {
+                offer = RandomGenerator.Rand.Next(defender.Count);
+            } while (defender[offer].isDead);
+            // hunters angriber først
+            defender[initiative].Fight(attacker[initiative], defender[offer]);
+            // Tilføj en actionComment fra den samme hunter som lige har angrebet og tilføj den til gameLog
+            roundResult += attacker[initiative].ActionComment.FightEvents[RandomGenerator.Rand.Next(attacker[initiative].ActionComment.FightEvents.Count)];
+            roundResult += "</br>"; // Tilføj linjeskift
+            if (attacker[initiative] is Hunter hunter)
+            {
+                roundResult += hunter.Name + " hits " + defender[offer].Name + " with his " + hunter.currentWeapon;
+
+            }
+            else
+            {
+                roundResult += attacker[initiative].Name + " uses their supernatural strength to send an attack towards " + defender[offer].Name;
+            }
+            roundResult += "</br>";
+            roundResult += defender[offer].Name + " is " + defender[offer].CurrentDamageLevel.ToString();
+            roundResult += "</br>";
+            return roundResult;
         }
     }
 }
