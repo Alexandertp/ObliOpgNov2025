@@ -87,7 +87,7 @@ namespace StarWarsCore.Controllers
                         hunters[initiative].Fight(hunters[initiative], monsters[offer]);
                         // Tilføj en actionComment fra den samme hunter som lige har angrebet og tilføj den til gameLog
                         gameLog.FightEvents.Add(hunters[initiative].ActionComment.FightEvents[RandomGenerator.Rand.Next(hunters[initiative].ActionComment.FightEvents.Count)]);
-                        gameLog.FightEvents.Add("</br>");
+                        gameLog.FightEvents.Add("</br>"); // Tilføj linjeskift
                         gameLog.FightEvents.Add(hunters[initiative].Name + " hits " + monsters[offer].Name + " with his " + hunters[initiative].currentWeapon);
                         gameLog.FightEvents.Add("</br>");
                         gameLog.FightEvents.Add(monsters[offer].Name + " is " + monsters[offer].CurrentDamageLevel.ToString());
