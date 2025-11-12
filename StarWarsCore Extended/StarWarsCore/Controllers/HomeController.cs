@@ -270,7 +270,7 @@ namespace StarWarsCore.Controllers
             if (attacker[initiative] is Hunter hunter)
             {
                 roundResult += hunter.Name + " hits " + defender[offer].Name + " with his " + hunter.currentWeapon;
-                
+                roundResult += "</br>" + "<img src = " + hunter.imageURL + ">" + "</img>";
 
             }
             else

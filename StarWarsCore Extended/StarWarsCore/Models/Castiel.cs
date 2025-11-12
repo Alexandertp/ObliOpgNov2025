@@ -13,7 +13,7 @@ namespace StarWarsCore.Models
             Greeting = "I'm an angel, you ass!";
             LastWords = "Pull my finger *Dies of cringe*";
             AddWeapon("Angel Blade");
-            imageURL = "../images/Castiel Attack.webp";
+            imageURL = "../images/CastielAttack.webp";
             ActionComment = new AttackRecorder();
             ActionComment.FightEvents = new List<string>()
             {
