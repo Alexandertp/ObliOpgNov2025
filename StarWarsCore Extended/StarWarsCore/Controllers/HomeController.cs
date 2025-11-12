@@ -270,13 +270,14 @@ namespace StarWarsCore.Controllers
             if (attacker[initiative] is Hunter hunter)
             {
                 roundResult += hunter.Name + " hits " + defender[offer].Name + " with his " + hunter.currentWeapon;
-                roundResult += "</br>" + "<img src = " + hunter.imageURL + ">" + "</img>";
 
             }
             else
             {
                 roundResult += attacker[initiative].Name + " uses their supernatural strength to send an attack towards " + defender[offer].Name;
+                
             }
+            roundResult += "</br>" + "<img src = " + attacker[initiative].imageURL + ">" + "</img>";
             roundResult += "</br>";
             roundResult += defender[offer].Name + " is " + defender[offer].CurrentDamageLevel.ToString();
             roundResult += "</br>";
@@ -299,7 +300,7 @@ namespace StarWarsCore.Controllers
                 defender[offer] is Hunter woundedHunter)
             {
                 castiel.SaveABrother(woundedHunter);
-                roundResult += castiel.Name + " du må ikke dø " + woundedHunter.Name + "</br>";
+                roundResult += castiel.Name + " you can't die yet " + woundedHunter.Name + "</br>";
                 
                 // Tilføj en GIF
                 roundResult += "<img src='/images/Castiel SaveABrother.gif' alt='Castiel saves a hunter!' style='width:450px;height:auto;'></br>";

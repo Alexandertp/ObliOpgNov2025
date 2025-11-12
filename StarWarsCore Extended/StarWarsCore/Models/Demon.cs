@@ -12,6 +12,7 @@ namespace StarWarsCore.Models
             Greeting = "Grrrr, I am an evil demon.";
             LastWords = "Ahhhh, I'm going back to hell!";
             CurrentDamageLevel = Creature.DamageLevel.Healthy;
+            imageURL = "../images/DemonAttack.gif";
             ActionComment = new AttackRecorder();
             ActionComment.FightEvents = new List<string>()
         {

@@ -12,6 +12,7 @@ namespace StarWarsCore.Models
             Greeting = "Wooo, I am a ghost.";
             LastWords = "Wooo, I'm going to the nether.";
             CurrentDamageLevel = Creature.DamageLevel.Healthy;
+            imageURL = "../images/GhostAttack.gif";
             ActionComment = new AttackRecorder();
             ActionComment.FightEvents = new List<string>()
         {
