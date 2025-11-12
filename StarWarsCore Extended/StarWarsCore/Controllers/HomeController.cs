@@ -77,48 +77,8 @@ namespace StarWarsCore.Controllers
                     {
                         gameLog.FightEvents.Add(FightRound(hunters, monsters));
                         gameLog.FightEvents.Add(FightRound(monsters, hunters));
-                        
-                        
-                        /*
-                            int initiative = 0;
-                            do
-                            {
-                                initiative = RandomGenerator.Rand.Next(hunters.Count);
-                            } while (hunters[initiative].isDead);
-                            int offer = 0;
-                            do
-                            {
-                                offer = RandomGenerator.Rand.Next(monsters.Count);
-                            } while (monsters[offer].isDead);
-                            // hunters angriber først
-                            hunters[initiative].Fight(hunters[initiative], monsters[offer]);
-                            // Tilføj en actionComment fra den samme hunter som lige har angrebet og tilføj den til gameLog
-                            gameLog.FightEvents.Add(hunters[initiative].ActionComment.FightEvents[RandomGenerator.Rand.Next(hunters[initiative].ActionComment.FightEvents.Count)]);
-                            gameLog.FightEvents.Add("</br>"); // Tilføj linjeskift
-                            gameLog.FightEvents.Add(hunters[initiative].Name + " hits " + monsters[offer].Name + " with his " + hunters[initiative].currentWeapon);
-                            gameLog.FightEvents.Add("</br>");
-                            gameLog.FightEvents.Add(monsters[offer].Name + " is " + monsters[offer].CurrentDamageLevel.ToString());
-                            gameLog.FightEvents.Add("</br>");
-                            // nu er det monstrenes tur
-                            do
-                            {
-                                initiative = RandomGenerator.Rand.Next(monsters.Count);
-                            } while (monsters[initiative].isDead);
-                            do
-                            {
-                                offer = RandomGenerator.Rand.Next(hunters.Count);
-                            } while (hunters[offer].isDead);
-                            monsters[initiative].Fight(monsters[initiative], hunters[offer]);
-                            gameLog.FightEvents.Add(monsters[initiative].ActionComment.FightEvents[RandomGenerator.Rand.Next(monsters[initiative].ActionComment.FightEvents.Count)]);
-                            gameLog.FightEvents.Add("</br>");
-                            gameLog.FightEvents.Add(monsters[initiative].Name + " uses their supernatural strength to send an attack towards " + hunters[offer].Name);
-                            gameLog.FightEvents.Add("</br>");
-                            gameLog.FightEvents.Add(hunters[offer].Name + " is " + hunters[offer].CurrentDamageLevel.ToString());
-                            gameLog.FightEvents.Add("</br>");
-
-                            
-                        */
                     }
+                    gameLog.FightEvents.Add("<hr>");
                     gameLog.FightEvents.Add(EndFightResult(hunters, monsters));
                     
 
@@ -316,3 +276,4 @@ namespace StarWarsCore.Controllers
         }
     }
 }
+
