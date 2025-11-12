@@ -55,9 +55,9 @@ namespace StarWarsCore.Controllers
                     hunters.Add(dean);
                     hunters.Add(castiel);
 
-                    Vampire vampBob = new Vampire("Bob");
-                    Ghost ghost = new Ghost("Magrethe");
-                    Demon demonAsmon = new Demon("Asmongold");
+                    Vampire vampBob = new Vampire("Vampire Bob");
+                    Ghost ghost = new Ghost("Ghost Magrethe");
+                    Demon demonAsmon = new Demon("Demon Asmongold");
                     monsters.Add(vampBob);
                     monsters.Add(ghost);
                     monsters.Add(demonAsmon);
