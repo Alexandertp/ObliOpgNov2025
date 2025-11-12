@@ -281,12 +281,28 @@ namespace StarWarsCore.Controllers
             roundResult += defender[offer].Name + " is " + defender[offer].CurrentDamageLevel.ToString();
             roundResult += "</br>";
             //TODO: find castiel index dynamically
+            /*
             if (defender[2].Name == "Castiel" && !defender[2].isDead)
             {
                 if (defender[2] is Castiel castiel && (int)defender[offer].CurrentDamageLevel <= 2 && defender[offer].Name != "Castiel")
                 {
                     castiel.SaveABrother((Hunter)defender[offer]);
                 }
+            }
+            */
+            // Find Castiel blandt defender-listen, hvis han stadig lever
+            Castiel castiel = defender.OfType<Castiel>().FirstOrDefault(castiel => !castiel.isDead);
+
+            if (castiel != null && 
+                defender[offer].Name != "Castiel" && 
+                (int)defender[offer].CurrentDamageLevel <= 2 &&
+                defender[offer] is Hunter woundedHunter)
+            {
+                castiel.SaveABrother(woundedHunter);
+                roundResult += castiel.Name + " du må ikke dø " + woundedHunter.Name + "</br>";
+                
+                // Tilføj en GIF
+                roundResult += "<img src='/images/Castiel SaveABrother.gif' alt='Castiel saves a hunter!' style='width:450px;height:auto;'></br>";
             }
             return roundResult;
         }
