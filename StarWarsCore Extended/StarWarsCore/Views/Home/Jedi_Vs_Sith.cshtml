@@ -34,11 +34,11 @@
             <div class="lead">
                 @if (Model.DarkSide == true)
             {
-                    @:You have chosen wisely, apprentice.. there will be no end to our Sith nastiness now you're on board!
+                    @:Du hepper på monsters!
             }
             else
             {
-                    @:Thank you for letting us know that you will help us prevail over the Dark Side. Or at least, try..
+                    @:Du hepper på Hunters!
             }
             </div>
             <p>
@@ -59,7 +59,7 @@
                 <a class="btn btn-success" asp-controller="Home"
                    asp-action="EmailBattleData"
                    asp-route-playerEmail="@Model.Email"
-                   asp-route-playerName=" @Model.Name">Email this epic Jedi Battle!</a>
+                   asp-route-playerName=" @Model.Name">Email this epic Monsters vs Hunters Battle!</a>
             </p>
         </div>
         
