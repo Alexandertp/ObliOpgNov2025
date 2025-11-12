@@ -14,7 +14,7 @@ namespace StarWarsCore.Models
             CurrentDamageLevel = Creature.DamageLevel.Healthy;
             Greeting = "I've been tortured by the Devil himself. So you, you're just an accent in a pantsuit. What can you do to me?";
             LastWords = "Dude I just got whaled on by Paris Hilton";
-            imageURL = "../images/SamAttack.gif";
+            imageURL = "../images/SamAttack.gif style='width:450px;height:auto'";
             ActionComment = new AttackRecorder();
             ActionComment.FightEvents = new List<string>()
             {

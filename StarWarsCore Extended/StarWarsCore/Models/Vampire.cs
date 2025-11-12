@@ -11,7 +11,7 @@ public class Vampire : Monster
         Greeting = "Prepare to join my nest, Blah BBBlahh";
         LastWords = "BLAHHHHHHHHHHHH";
         CurrentDamageLevel = Creature.DamageLevel.Healthy;
-        imageURL = "../images/VampireAttack.gif";
+        imageURL = "../images/VampireAttack.gif style='width:450px;height:auto'";
         ActionComment = new AttackRecorder();
         ActionComment.FightEvents = new List<string>()
         {
