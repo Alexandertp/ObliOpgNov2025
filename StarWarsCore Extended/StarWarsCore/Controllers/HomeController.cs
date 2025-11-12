@@ -119,8 +119,8 @@ namespace StarWarsCore.Controllers
                             
                         */
                     }
-
-                    EndFightResult(hunters, monsters);
+                    gameLog.FightEvents.Add(EndFightResult(hunters, monsters));
+                    
 
                     // Set up viewbag list of event strings
                     ViewBag.FightDescription = new List<string> { "<p><div class='lead'>" + "" + "</div></p>" };
@@ -312,7 +312,7 @@ namespace StarWarsCore.Controllers
             {
                 result += hunter.Name + "</br>" + " has killed " + hunter.killCount + " monsters." + "</br>" + " was killed by " + hunter.killedByName + "</br>";
             }
-            return "";
+            return result;
         }
     }
 }
