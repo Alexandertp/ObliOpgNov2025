@@ -119,6 +119,9 @@ namespace StarWarsCore.Controllers
                             
                         */
                     }
+
+                    EndFightResult(hunters, monsters);
+
                     // Set up viewbag list of event strings
                     ViewBag.FightDescription = new List<string> { "<p><div class='lead'>" + "" + "</div></p>" };
 
@@ -277,21 +280,16 @@ namespace StarWarsCore.Controllers
                 roundResult += attacker[initiative].Name + " uses their supernatural strength to send an attack towards " + defender[offer].Name;
                 
             }
+            if (defender[offer].isDead)
+            {
+                attacker[initiative].killCount++;
+                defender[offer].killedByName = attacker[initiative].Name;
+            }
             roundResult += "</br>" + "<img src = " + attacker[initiative].imageURL + ">" + "</img>";
             roundResult += "</br>";
             roundResult += defender[offer].Name + " is " + defender[offer].CurrentDamageLevel.ToString();
             roundResult += "</br>";
-            //TODO: find castiel index dynamically
-            /*
-            if (defender[2].Name == "Castiel" && !defender[2].isDead)
-            {
-                if (defender[2] is Castiel castiel && (int)defender[offer].CurrentDamageLevel <= 2 && defender[offer].Name != "Castiel")
-                {
-                    castiel.SaveABrother((Hunter)defender[offer]);
-                }
-            }
-            */
-            // Find Castiel blandt defender-listen, hvis han stadig lever
+
             Castiel castiel = defender.OfType<Castiel>().FirstOrDefault(castiel => !castiel.isDead);
 
             if (castiel != null && 
@@ -306,6 +304,15 @@ namespace StarWarsCore.Controllers
                 roundResult += "<img src='/images/Castiel SaveABrother.gif' alt='Castiel saves a hunter!' style='width:450px;height:auto;'></br>";
             }
             return roundResult;
+        }
+        public string EndFightResult(List <Creature> hunters, List <Creature> monsters)
+        {
+            string result = "";
+            foreach (Creature hunter in hunters)
+            {
+                result += hunter.Name + "</br>" + " has killed " + hunter.killCount + " monsters." + "</br>" + " was killed by " + hunter.killedByName + "</br>";
+            }
+            return "";
         }
     }
 }

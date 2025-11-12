@@ -5,6 +5,8 @@ namespace StarWarsCore.Models;
 public abstract class Creature
 {
     public string Name;
+    public int killCount;
+    public string killedByName;
 
     public enum DamageLevel
     {
