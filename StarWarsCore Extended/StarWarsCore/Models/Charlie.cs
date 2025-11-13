@@ -12,7 +12,7 @@ namespace StarWarsCore.Models
             CurrentDamageLevel = Creature.DamageLevel.Healthy;
             Greeting = "I'm in. I've always wanted to say that!";
             LastWords = "Good luck saving the world. Peace out, bitches.";
-            imageURL = "../images/ChalieAttack.gif style='width:450px;height:auto'";
+            imageURL = "../images/CharlieAttack.gif style='width:450px;height:auto'";
             ActionComment = new AttackRecorder();
             ActionComment.FightEvents = new List<string>()
             {
