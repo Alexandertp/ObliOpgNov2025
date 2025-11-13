@@ -2,8 +2,6 @@
 using System.Diagnostics.CodeAnalysis;
 
 namespace StarWarsCore.Models
-
-
 {
     public class Sam : Hunter
     {

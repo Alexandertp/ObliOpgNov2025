@@ -68,12 +68,12 @@ namespace StarWarsCore.Controllers
                     castiel.currentWeapon = castiel.Weapons[RandomGenerator.Rand.Next(0, castiel.Weapons.Count)];
                     dean.currentWeapon = dean.Weapons[RandomGenerator.Rand.Next(0, dean.Weapons.Count)];
                     sam.currentWeapon = sam.Weapons[RandomGenerator.Rand.Next(0, sam.Weapons.Count)];
+                    charlie.currentWeapon = charlie.Weapons[RandomGenerator.Rand.Next(0, charlie.Weapons.Count)];
 
                     gameLog.FightEvents.Add(castiel.Name + " retrieves his trusty " + castiel.currentWeapon + "</br>");
                     gameLog.FightEvents.Add(dean.Name + " opens his trunk and gets out his " + dean.currentWeapon + "</br>");
                     gameLog.FightEvents.Add(sam.Name + " finds a random " + sam.currentWeapon + " on the ground." + "</br>");
-
-
+                    gameLog.FightEvents.Add(charlie.Name + " readies her " + charlie.currentWeapon + "</br>");
 
                     // CombatLoop der kører indtil enten alle hunters eller monsters er døde
                     while (hunters.Any(x => x.isDead == false) && monsters.Any(x => x.isDead == false))
@@ -233,13 +233,13 @@ namespace StarWarsCore.Controllers
                 offer = RandomGenerator.Rand.Next(defender.Count);
             } while (defender[offer].isDead);
             // hunters angriber først
-            defender[initiative].Fight(attacker[initiative], defender[offer]);
+            attacker[initiative].Fight(attacker[initiative], defender[offer]);
             // Tilføj en actionComment fra den samme hunter som lige har angrebet og tilføj den til gameLog
             roundResult += attacker[initiative].ActionComment.FightEvents[RandomGenerator.Rand.Next(attacker[initiative].ActionComment.FightEvents.Count)];
             roundResult += "</br>"; // Tilføj linjeskift
             if (attacker[initiative] is Hunter hunter)
             {
-                roundResult += hunter.Name + " hits " + defender[offer].Name + " with his " + hunter.currentWeapon;
+                roundResult += hunter.Name + " hits " + defender[offer].Name + " with their " + hunter.currentWeapon;
 
             }
             else
@@ -281,7 +281,7 @@ namespace StarWarsCore.Controllers
                 result += hunter.Name + " has killed " + hunter.killCount + " monsters." + "</br>"; 
                 if (hunter.killedByName != null)
                 {
-                result += hunter.Name + " was killed by " + hunter.killedByName + "</br>";
+                result += hunter.Name + " was killed by " + hunter.killedByName + ". </br>";
                 }
                 else
                 {
@@ -294,7 +294,7 @@ namespace StarWarsCore.Controllers
                 result += monster.Name + " has killed " + monster.killCount + " hunters. " + "</br>";
                 if (monster.killedByName != null)
                 {
-                result += monster.Name + " was killed by " + monster.killedByName + "</br>";
+                result += monster.Name + " was killed by " + monster.killedByName + ". </br>";
                 }
                 else
                 {
@@ -310,7 +310,7 @@ namespace StarWarsCore.Controllers
             {
                 result = "HUNTERS WIN";
             }
-            else if(monsters.Any(monsters => monsters.isDead ==false))
+            else if(monsters.Any(monsters => monsters.isDead == false))
             {
                 result = "MONSTERS WIN";
             }

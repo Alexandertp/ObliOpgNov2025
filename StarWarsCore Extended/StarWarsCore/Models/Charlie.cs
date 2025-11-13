@@ -9,10 +9,9 @@ namespace StarWarsCore.Models
         {
             Name = "Charlie";
             isDead = false;
-
-            Greeting = "I'm in. I've always wanted to say that";
-            LastWords = "Good luck saving the world. Peace out, bitches.";
             CurrentDamageLevel = Creature.DamageLevel.Healthy;
+            Greeting = "I'm in. I've always wanted to say that!";
+            LastWords = "Good luck saving the world. Peace out, bitches.";
             imageURL = "../images/ChalieAttack.gif style='width:450px;height:auto'";
             ActionComment = new AttackRecorder();
             ActionComment.FightEvents = new List<string>()

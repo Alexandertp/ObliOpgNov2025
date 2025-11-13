@@ -11,7 +11,7 @@ namespace StarWarsCore.Models
             isDead = false;
             CurrentDamageLevel = DamageLevel.Healthy;
             Greeting = "I'm an angel, you ass!";
-            LastWords = "Pull my finger *Dies of cringe*";
+            LastWords = "Pull my finger!";
             AddWeapon("Angel Blade");
             imageURL = "../images/CastielAttack.webp style='width:450px;height:auto'";
             ActionComment = new AttackRecorder();
