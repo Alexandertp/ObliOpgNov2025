@@ -81,7 +81,7 @@ namespace StarWarsCore.Controllers
                     }
                     gameLog.FightEvents.Add("</br>");
                     gameLog.FightEvents.Add("<hr>");
-                    gameLog.FightEvents.Add("*******RESULT OF FIGHT*******");
+                    gameLog.FightEvents.Add("*******RESULT OF FIGHT******* </br>");
                     gameLog.FightEvents.Add(EndFightResult(hunters, monsters));
                     
 
@@ -273,12 +273,28 @@ namespace StarWarsCore.Controllers
             string result = "";
             foreach (Creature hunter in hunters)
             {
-                result += hunter.Name + "</br>" + " has killed " + hunter.killCount + " monsters." + "</br>" + " was killed by " + hunter.killedByName + "</br>";
+                result += hunter.Name + " has killed " + hunter.killCount + " monsters." + "</br>"; 
+                if (hunter.killedByName != null)
+                {
+                result += hunter.Name + " was killed by " + hunter.killedByName + "</br>";
+                }
+                else
+                {
+                    result += hunter.Name + " managed to stay alive. </br>";
+                }
             }
             result += "<hr>";
             foreach (Creature monster in monsters)
             {
-                result += monster.Name + "</br>" + " has killed " + monster.killCount + " hunters. " + "</br>" + " was killed by " + monster.killedByName + "</br>";
+                result += monster.Name + " has killed " + monster.killCount + " hunters. " + "</br>";
+                if (monster.killedByName != null)
+                {
+                result += monster.Name + " was killed by " + monster.killedByName + "</br>";
+                }
+                else
+                {
+                    result += monster.Name + " managed to stay alive. </br>";
+                }
             }
             return result;
         }
