@@ -270,6 +270,7 @@ namespace StarWarsCore.Controllers
                 // Tilføj en GIF
                 roundResult += "<img src='/images/Castiel SaveABrother.gif' alt='Castiel saves a hunter!' style='width:450px;height:auto;'></br>";
             }
+            roundResult += "<hr>";
             return roundResult;
         }
         public string EndFightResult(List <Creature> hunters, List <Creature> monsters)
