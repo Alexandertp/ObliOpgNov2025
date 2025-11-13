@@ -82,8 +82,10 @@ namespace StarWarsCore.Controllers
                     gameLog.FightEvents.Add("</br>");
                     gameLog.FightEvents.Add("<hr>");
                     gameLog.FightEvents.Add("*******RESULT OF FIGHT******* </br>");
+                    gameLog.FightEvents.Add(FightWinner(hunters, monsters));
+                    gameLog.FightEvents.Add("<hr>");
                     gameLog.FightEvents.Add(EndFightResult(hunters, monsters));
-                    
+
 
                     // Set up viewbag list of event strings
                     ViewBag.FightDescription = new List<string> { "<p><div class='lead'>" + "" + "</div></p>" };
@@ -297,6 +299,19 @@ namespace StarWarsCore.Controllers
                 }
             }
             return result;
+        }
+        public string FightWinner(List<Creature> hunters, List<Creature> monsters)
+        {
+            string result = "";
+            if (hunters.Any(hunters => hunters.isDead == false))
+            {
+                result = "HUNTERS WIN";
+            }
+            else if(monsters.Any(monsters => monsters.isDead ==false))
+            {
+                result = "MONSTERS WIN";
+            }
+                return result;
         }
     }
 }
