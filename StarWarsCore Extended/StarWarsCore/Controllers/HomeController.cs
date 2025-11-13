@@ -7,6 +7,7 @@ using StarWarsCore.Helpers;
 using System.Text;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using System.Runtime.InteropServices;
 
 namespace StarWarsCore.Controllers
 {
@@ -78,7 +79,9 @@ namespace StarWarsCore.Controllers
                         gameLog.FightEvents.Add(FightRound(hunters, monsters));
                         gameLog.FightEvents.Add(FightRound(monsters, hunters));
                     }
+                    gameLog.FightEvents.Add("</br>");
                     gameLog.FightEvents.Add("<hr>");
+                    gameLog.FightEvents.Add("*******RESULT OF FIGHT*******");
                     gameLog.FightEvents.Add(EndFightResult(hunters, monsters));
                     
 
@@ -271,6 +274,11 @@ namespace StarWarsCore.Controllers
             foreach (Creature hunter in hunters)
             {
                 result += hunter.Name + "</br>" + " has killed " + hunter.killCount + " monsters." + "</br>" + " was killed by " + hunter.killedByName + "</br>";
+            }
+            result += "<hr>";
+            foreach (Creature monster in monsters)
+            {
+                result += monster.Name + "</br>" + " has killed " + monster.killCount + " hunters. " + "</br>" + " was killed by " + monster.killedByName + "</br>";
             }
             return result;
         }
