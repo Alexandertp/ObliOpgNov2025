@@ -52,9 +52,11 @@ namespace StarWarsCore.Controllers
                     Sam sam = new Sam();
                     Dean dean = new Dean();
                     Castiel castiel = new Castiel();
+                    Charlie charlie = new Charlie();
                     hunters.Add(sam);
                     hunters.Add(dean);
                     hunters.Add(castiel);
+                    hunters.Add(charlie);
 
                     Vampire vampBob = new Vampire("Vampire Bob");
                     Ghost ghost = new Ghost("Ghost Magrethe");
