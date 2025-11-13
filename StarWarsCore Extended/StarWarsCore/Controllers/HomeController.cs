@@ -29,6 +29,7 @@ namespace StarWarsCore.Controllers
         [HttpPost]
         public ViewResult RecruitForm(ThePlayer newWarrior)
         {
+            Debug.WriteLine("ModelState is " + ModelState.IsValid);
             // check user input
             if (ModelState.IsValid)
             {
@@ -78,8 +79,11 @@ namespace StarWarsCore.Controllers
                     // CombatLoop der kører indtil enten alle hunters eller monsters er døde
                     while (hunters.Any(x => x.isDead == false) && monsters.Any(x => x.isDead == false))
                     {
-                        gameLog.FightEvents.Add(FightRound(hunters, monsters));
-                        gameLog.FightEvents.Add(FightRound(monsters, hunters));
+                        lock (gameLog)
+                        { 
+                            gameLog.FightEvents.Add(FightRound(hunters, monsters)); 
+                            gameLog.FightEvents.Add(FightRound(monsters, hunters));
+                        }
                     }
                     gameLog.FightEvents.Add("</br>");
                     gameLog.FightEvents.Add("<hr>");
@@ -103,17 +107,18 @@ namespace StarWarsCore.Controllers
                     foreach (string FightEvent in gameLog.FightEvents)
                     {
                         // htmlPageWithDiv = htmlPageWithDiv + "<li>" + FightEvent + "</li>";
-                        htmlPageWithDiv = htmlPageWithDiv + FightEvent; // li elements are already added
+                        htmlPageWithDiv += FightEvent; // li elements are already added
                     }
-                    htmlPageWithDiv = htmlPageWithDiv + "</ul></div></body></html>";
+                    htmlPageWithDiv += "</ul></div></body></html>";
 
-                    TempData.Add("FightEvents", htmlPageWithDiv);
+                    TempData["FightEvents"] = htmlPageWithDiv;
 
                     return View("Jedi_Vs_Sith", myWarrior);
                 }
                 catch (Exception e)
                 {
                     // log the exception msg to a text file or db
+                    Debug.WriteLine(e);
                     string msg = e.Message;
                     ErrorLogger.SaveMsg(msg);
                     return View();
@@ -125,6 +130,7 @@ namespace StarWarsCore.Controllers
                 // se https://laptrinhx.com/how-to-get-all-errors-from-asp-net-mvc-modelstate-252836070/
                 // og https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.modelstate.errors?view=aspnet-mvc-5.2
                 var modelStateErrors = GetErrorListFromModelState(ModelState);
+                Debug.WriteLine(modelStateErrors);
                 if (modelStateErrors.Count > 0)
                 {
                     foreach (string errMsg in modelStateErrors)
