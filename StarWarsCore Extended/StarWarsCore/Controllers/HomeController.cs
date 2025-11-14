@@ -298,9 +298,10 @@ namespace StarWarsCore.Controllers
         /// <returns></returns>
         public string EndFightResult(List <Creature> hunters, List <Creature> monsters)
         {
-            string result = "";
+            string result = "<div>";
             foreach (Creature hunter in hunters)
             {
+                result += "<div style=\"float: left; margin: 5px; border: 2px solid black\" >";
                 result += hunter.Name + " has killed " + hunter.killCount + " monsters." + "</br>"; 
                 if (hunter.killedByName != null)
                 {
@@ -310,10 +311,13 @@ namespace StarWarsCore.Controllers
                 {
                     result += hunter.Name + " managed to stay alive. </br>";
                 }
+                result += "</div>";
             }
             result += "<hr>";
+            result += "</br>";
             foreach (Creature monster in monsters)
             {
+                result += "<div style=\"float: left; margin: 5px; border: 2px solid black\" >";
                 result += monster.Name + " has killed " + monster.killCount + " hunters. " + "</br>";
                 if (monster.killedByName != null)
                 {
@@ -323,8 +327,10 @@ namespace StarWarsCore.Controllers
                 {
                     result += monster.Name + " managed to stay alive. </br>";
                 }
+
+                result += "</div>";
             }
-            return result;
+            return result + "</div>";
         }
         /// <summary>
         /// Looks through a list of hunters and monsters and returns a string stating who won
