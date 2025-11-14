@@ -152,44 +152,6 @@ namespace StarWarsCore.Controllers
 
         }
 
-        private List<string> ListOutput(List<string> input)
-        {
-            var output = new List<string>();
-            foreach (string x in input)
-            {
-                output.Add("<li>" + x + "</li>");
-            }
-            return output;
-        }
-
-        private void HtmlEncodeFightEvents(AttackRecorder gameLog, JediKnight warrior)
-        {
-            // Add a picture of our jedi knight or sith lord as a div to the output stream
-            StringBuilder builder = new StringBuilder();
-            builder.Append("<div class='row'>");
-            builder.Append("<div class='column1'><img src='" + warrior.ImageUrl + "'></div>");
-            builder.Append("<div class='column2'>");
-            // add player fight events to game log in sequence, as an unordered list
-            builder.Append("<ul>");
-            foreach (string x in warrior.FightLog.FightEvents)
-            {
-                // if(warrior.Name == "Luke Skywalker")
-                if (x.Contains("Luke"))
-                {
-                    builder.Append("<li class='luke'>" + x + "</li>");
-                }
-                else
-                {
-                    builder.Append("<li>" + x + "</li>");
-                }
-            }
-            builder.Append("</ul>");
-            builder.Append("</div>");
-            builder.Append("</div>"); // last div closes bootstrap row            
-
-            gameLog.FightEvents.Add(builder.ToString());
-        }
-
         // The whole model can't be passed via an actionlink, only simple strings. 
         // We can pass an id for a record in a db, and rehydrate model from db afterwards - or just pass in the player's email address input.
         public IActionResult EmailBattleData(string playerEmail, string playerName)
@@ -315,7 +277,7 @@ namespace StarWarsCore.Controllers
                 result += "</div>";
             }
             result += "<hr>";
-            result += "</br>";
+            result += "<div style = \"clear: both;\">";
             foreach (Creature monster in monsters)
             {
                 result += "<div style=\"float: left; margin: 5px; border: 2px solid black\" >";
@@ -331,6 +293,8 @@ namespace StarWarsCore.Controllers
 
                 result += "</div>";
             }
+
+            result += "</div>";
             return result + "</div>";
         }
         /// <summary>
