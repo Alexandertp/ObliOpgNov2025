@@ -84,7 +84,7 @@ namespace StarWarsCore.Controllers
                         gameLog.FightEvents.Add(FightRound(hunters, monsters));
                         if (monsters.Any(x => x.isDead == false))
                         {
-                        gameLog.FightEvents.Add(FightRound(monsters, hunters));
+                            gameLog.FightEvents.Add(FightRound(monsters, hunters));
                         }
 
                         roundNumber++;
