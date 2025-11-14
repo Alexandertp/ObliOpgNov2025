@@ -75,7 +75,8 @@ namespace StarWarsCore.Controllers
                     gameLog.FightEvents.Add(dean.Name + " opens his trunk and gets out his " + dean.currentWeapon + "</br>");
                     gameLog.FightEvents.Add(sam.Name + " finds a random " + sam.currentWeapon + " on the ground." + "</br>");
                     gameLog.FightEvents.Add(charlie.Name + " readies her " + charlie.currentWeapon + "</br>");
-                    
+                    gameLog.FightEvents.Add("<hr>");
+
                     int roundNumber = 0;
                     // CombatLoop der kører indtil enten alle hunters eller monsters er døde
                     while (hunters.Any(x => x.isDead == false) && monsters.Any(x => x.isDead == false))
@@ -84,7 +85,7 @@ namespace StarWarsCore.Controllers
                         gameLog.FightEvents.Add(FightRound(hunters, monsters));
                         if (monsters.Any(x => x.isDead == false))
                         {
-                        gameLog.FightEvents.Add(FightRound(monsters, hunters));
+                            gameLog.FightEvents.Add(FightRound(monsters, hunters));
                         }
 
                         roundNumber++;
