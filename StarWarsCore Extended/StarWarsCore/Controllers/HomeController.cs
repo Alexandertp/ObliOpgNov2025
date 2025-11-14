@@ -224,7 +224,12 @@ namespace StarWarsCore.Controllers
             var errorList = query.ToList();
             return errorList;
         }
-
+        /// <summary>
+        /// Runs a around of combat and returns a string detailing the actions that happened
+        /// </summary>
+        /// <param name="attacker"></param>
+        /// <param name="defender"></param>
+        /// <returns></returns>
         private string FightRound(List <Creature> attacker, List <Creature> defender) 
         {
             string roundResult = "";
@@ -279,6 +284,12 @@ namespace StarWarsCore.Controllers
             roundResult += "<hr>";
             return roundResult;
         }
+        /// <summary>
+        /// Parses data from two lists of monsters and returns a string containing how many they killed and who killed them
+        /// </summary>
+        /// <param name="hunters"></param>
+        /// <param name="monsters"></param>
+        /// <returns></returns>
         public string EndFightResult(List <Creature> hunters, List <Creature> monsters)
         {
             string result = "";
@@ -309,6 +320,12 @@ namespace StarWarsCore.Controllers
             }
             return result;
         }
+        /// <summary>
+        /// Looks through a list of hunters and monsters and returns a string stating who won
+        /// </summary>
+        /// <param name="hunters"></param>
+        /// <param name="monsters"></param>
+        /// <returns></returns>
         public string FightWinner(List<Creature> hunters, List<Creature> monsters)
         {
             string result = "";
